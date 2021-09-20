@@ -22,6 +22,7 @@ img { width: 100%;
 }
 
 .discount{
+    color: white;
     font-size: 20px;
     background-color: red;
     position: absolute;
@@ -31,6 +32,7 @@ img { width: 100%;
 }
 
 .sostenibilita{
+    color: white;
     background-color: green;
     font-size: 20px;
     position: absolute;
@@ -38,6 +40,7 @@ img { width: 100%;
     left: 60px;
     padding:5px;
 }
+
 .cuore{
     font-size: 30px;
     color: red;
@@ -46,4 +49,25 @@ img { width: 100%;
     right: 0;
     top: 15px;
     margin: 5px;
+}
+
+.marca{
+    font-size: 20px;
+    position: absolute;
+}
+
+.description{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.price{
+    color: red;
+    position: absolute;
+    margin-top: 40px;
+}
+.price-cancelled{
+    color: rgb(126, 123, 123);
+    text-decoration: line-through;
 }
