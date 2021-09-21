@@ -75,14 +75,14 @@ img { width: 100%;
     text-decoration: line-through;
     text-align: left;
 }
-
+/* proprietà hover sulla immagini*/
 #prima-img:hover{
     content: url(img/1b.webp);
 }
 
 #seconda-img:hover{
     content: url(img/2b.webp);
- }
+}
 
 #terza-img:hover{
     content: url(img/3b.webp);
@@ -98,4 +98,4 @@ img { width: 100%;
 
 #sesta-img:hover{
     content: url(img/6b.webp);
-     }
+}
