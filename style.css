@@ -31,7 +31,6 @@ img { width: 100%;
     left: 0;
     margin:5px;
 }
-
 .sostenibilita{
     color: white;
     background-color: green;
@@ -49,26 +48,54 @@ img { width: 100%;
     position: absolute;
     right: 0;
     top: 15px;
-    margin: 5px;
+    margin:5px;
+    padding: 5px;
 }
 
 .marca{
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
 }
 
 .description{
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     margin-top: 20px;
+    text-align: left;
 }
 
 .price{
     color: red;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 50px;
 }
+
 .price-cancelled{
     color: rgb(126, 123, 123);
     text-decoration: line-through;
+    text-align: left;
 }
+
+#prima-img:hover{
+    content: url(img/1b.webp);
+}
+
+#seconda-img:hover{
+    content: url(img/2b.webp);
+ }
+
+#terza-img:hover{
+    content: url(img/3b.webp);
+}
+
+#quarta-img:hover{
+    content: url(img/4b.webp);
+}
+
+#quinta-img:hover{
+    content: url(img/5b.webp);
+}
+
+#sesta-img:hover{
+    content: url(img/6b.webp);
+     }
